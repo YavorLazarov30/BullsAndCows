@@ -109,7 +109,7 @@ public:
 
 	string convertNumber3(){
 		srand(time(NULL));
-		comp = rand() % 999 + 100;
+		comp = rand() % 900 + 100;
 		int digit = comp;
 		int digit1 = digit % 10;
 		int digit2 = digit % 100 / 10;
@@ -117,7 +117,7 @@ public:
 		while (digit1 == digit2 || digit3 == digit1 || digit2 == digit3){
 			//You can test the bad inputs with the code bellow.
 			//			cout << "Bad Input! Computer will try again! " << endl;
-			digit = rand() % 999 + 100;
+			digit = rand() % 900 + 100;
 			digit1 = digit % 10;
 			digit2 = digit % 100 / 10;
 			digit3 = digit / 100 % 10;
@@ -132,7 +132,7 @@ public:
 	}
 	string convertNumber4(){
 		srand(time(NULL));
-		comp = rand() % 9999 + 1000;
+		comp = rand() % 9000 + 1000;
 		int digit = comp;
 		int digit1 = digit % 10;
 		int digit2 = digit % 100 / 10;
@@ -142,7 +142,7 @@ public:
 			|| digit4 == digit2 || digit4 == digit3){
 			//You can test the bad inputs with the code bellow.
 			//			cout << "Bad Input! Computer will try again! " << endl;
-			digit = rand() % 9999 + 1000;
+			digit = rand() % 9000 + 1000;
 			digit1 = digit % 10;
 			digit2 = digit % 100 / 10;
 			digit3 = digit / 100 % 10;
@@ -158,7 +158,7 @@ public:
 	}
 	string convertNumber5(){
 		srand(time(NULL));
-		comp = rand() % 99999 + 10000;
+		comp = rand() % 90000 + 10000;
 		int digit = comp;
 		int digit1 = digit % 10;
 		int digit2 = digit % 100 / 10;
@@ -170,7 +170,7 @@ public:
 			digit5 == digit3 || digit5 == digit4){
 			//You can test the bad inputs with the code bellow.
 			//			cout << "Bad Input! Computer will try again! " << endl;		
-			digit = rand() % 99999 + 10000;
+			digit = rand() % 90000 + 10000;
 			digit1 = digit % 10;
 			digit2 = digit % 100 / 10;
 			digit3 = digit / 100 % 10;
@@ -187,7 +187,7 @@ public:
 	}
 	string convertNumber6(){
 		srand(time(NULL));
-		comp = rand() % 999999 + 100000;
+		comp = rand() % 900000 + 100000;
 		int digit = comp;
 
 		int digit1 = digit % 10;
@@ -202,7 +202,7 @@ public:
 			|| digit6 == digit5){
 			//You can test the bad inputs with the code bellow.
 			//			cout << "Bad Input! Computer will try again! " << endl;
-			digit = rand() % 999999 + 100000;
+			digit = rand() % 900000 + 100000;
 			digit1 = digit % 10;
 			digit2 = digit % 100 / 10;
 			digit3 = digit / 100 % 10;
